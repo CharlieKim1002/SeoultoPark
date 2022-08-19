@@ -1,0 +1,31 @@
+.regist {
+    width: 400px;
+    height: 380px;
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.regist label {
+    min-width: 100px;
+    display: inline-block;
+  }
+
+.regist p {
+  display: flex;
+  padding-left: 50px;
+}
+
+.regist textarea {
+    resize: none;
+  }
+
+h2 {
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
+}
+  
+  

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+#manager-main {
+    background-color: white;
+    opacity: 0.98;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+}
+
+hr{
+    width : 80%;
+  height : 2px;
+  background-color : rgb(19, 252, 11);
+}
+
+.manage-menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.manage-menu h1 {
+    font-family: 'Nanum Gothic', sans-serif;  
+}
+
+.manage-menu button:hover{
+    background-color: aqua;
+}

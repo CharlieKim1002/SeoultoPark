@@ -1,5 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=IBM+Plex+Sans+KR:wght@200&display=swap');
 
-label {
-    font-family: 'Jua', sans-serif;
+label{
+    font-family: 'Gugi', sans-serif;
 }
+
+button {
+    font-family: 'Gugi', sans-serif;
+    margin-top: 23px;
+    padding: 4px 12px 4px;
+}
+
+button:hover{
+    background-color: rgb(253, 186, 98);
+}
+
+#loginFrom {
+    width: 400px;
+    height: 360px;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #loginTop {
+      font-family: 'Gugi', sans-serif;
+      margin-top: 60px;
+  }
+  
+  .login{
+    margin-top: 28px;
+  }
+  
+   

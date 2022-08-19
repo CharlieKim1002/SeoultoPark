@@ -1,18 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 
 li {
     list-style: none;
     float: left;
     margin : 20px;
     font-size: 20px;
-    font-family: 'Jua', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+}
+
+.logo-wit{
+    margin : -20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: rgb(253, 186, 98);
 }
 
 #foot{
-    color : white;
+    color : rgb(255, 161, 38);
     width: 100%;
     bottom:0;
-    margin-bottom: 10px;
-    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    position: fixed;
     text-align: center;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(255, 255, 255, 0.692);
+    
+}
+
+.seti{
+    background-color: rgba(253, 186, 98, 0.822);
+    padding: 40px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 5%;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.seti h3{
+    text-align: left;
 }

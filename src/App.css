@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
 .App {
   text-align: center;
   margin : 0;
@@ -6,4 +8,23 @@
 body {
   margin : 0px;
   text-align: center;
+}
+
+.menuBox div {
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.menuItem {
+  width: 300px;
+  background-color: rgb(253, 186, 98);
+  cursor: pointer;
+  color: white;
+  padding : 5px;
+  border-radius: 5%;
+}
+
+.menuItem:hover {
+  background-color: rgb(255, 145, 0);
 }

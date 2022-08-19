@@ -5,7 +5,6 @@ import Navbar from '../components/commons/Navbar';
 import "./Layout.css";
 
 function Layout() {
-    
     return (
         <div id='home' className='background'>
             <div className='top'>
@@ -19,9 +18,7 @@ function Layout() {
                 <Footer/>
             </div>
         </div>
-        
-            
-       
+    
     );
 }
 

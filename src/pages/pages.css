@@ -1,9 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
 #mainimg {
     width : 100%;
     height : 70%;
 }
 
 h1 {
-    font-family: 'Jua', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.mlist{
+    position: absolute;
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#weiget-wrap{
+    width: 800px;
+    background: rgba(255, 255, 255, 0.747);
+    opacity: 0.8;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+#weiget-wrap li {
+    cursor: pointer;
+    padding-left: 40px;
+    text-align: center;
+}
+
+#weiget-wrap li img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#weather {
+    position: absolute;
+    top: 15px;
+    margin-left: 22%;
+}
+
+.weatherMain {
+    font-size: small;
+    position: absolute;
+    top: 60px;
+    margin-left: 25%;
 }
