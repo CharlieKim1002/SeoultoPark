@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { callDeleteMenuAPI } from '../apis/MenuAPICalls';
 
-function MenuDetail() {
+function AnimalsDetail() {
 
     /* 로그인 상태 확인 */
     const loginStatus = !!localStorage.getItem('isLogin');
@@ -39,4 +39,4 @@ function MenuDetail() {
     );
 }
 
-export default MenuDetail;
+export default AnimalsDetail;

@@ -1,7 +1,7 @@
 import MenuList from "../components/lists/MenuList";
 import { useNavigate } from "react-router-dom";
 import '../pages/pages.css';
-function Menus() {
+function Animals() {
 
     const loginStatus = !!localStorage.getItem('isLogin');
     const navigate = useNavigate();
@@ -20,4 +20,4 @@ function Menus() {
     );
 }
 
-export default Menus;
+export default Animals;

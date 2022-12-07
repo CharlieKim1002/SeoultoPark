@@ -1,7 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import MenuModifyForm from '../components/form/MenuModifyForm';
 
-function MenuModify() {
+function AnimalsModify() {
 
     const loginStatus = !!localStorage.getItem('isLogin');
 
@@ -16,4 +16,4 @@ function MenuModify() {
     );
 }
 
-export default MenuModify;
+export default AnimalsModify;
